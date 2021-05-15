@@ -167,7 +167,7 @@
             <sch:pageAreaName>DefArea</sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
             <sch:widgetType>Table</sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
+            <sch:refTargetType>BudgetItem</sch:refTargetType>
             <sch:label>BudgetItem_Table</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
