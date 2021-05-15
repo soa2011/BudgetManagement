@@ -5,7 +5,7 @@
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
-    <sch:primaryField></sch:primaryField>
+    <sch:primaryField>Name</sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:baseTables></sch:baseTables>
     <sch:viewInfo></sch:viewInfo>
