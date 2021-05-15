@@ -212,7 +212,7 @@
             <sch:changeFields></sch:changeFields>
             <sch:props></sch:props>
             <sch:dataSourceType>Entity</sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:anchorObjectTypeName>BudgetItem</sch:anchorObjectTypeName>
             <sch:bindingXpath></sch:bindingXpath>
             <sch:parentNodeName></sch:parentNodeName>
             <sch:childNodes/>
