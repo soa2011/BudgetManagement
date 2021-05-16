@@ -60,6 +60,46 @@
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>BudgetAllocationRequestLine</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>BudgetAllocationRequestLines(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>BudgetAllocationRequestLine</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>BudgetAllocationRequestLine[%s]</sch:format>
+            <sch:columns>Oid</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>BudgetAllocationRequest</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>BudgetAllocationRequests(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>BudgetAllocationRequest</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>0</sch:seqIndex>
+            <sch:format>BudgetAllocationRequest[%s]</sch:format>
+            <sch:columns>Oid</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
     </sch:treeNodes>
     <sch:buttons/>
     <sch:plugins/>
