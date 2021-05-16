@@ -44,6 +44,64 @@
     </sch:pageAreas>
     <sch:fields>
         <sch:BmfPageField>
+            <sch:name>Name</sch:name>
+            <sch:seqNumber>0</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType>Text</sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label></sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType></sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName>BudgetItem_FilterBarDV</sch:parentNodeName>
+            <sch:childNodes/>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
             <sch:name>BudgetItem_FilterBar</sch:name>
             <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
@@ -102,8 +160,66 @@
             <sch:childNodes/>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>BudgetItem_Toolbar</sch:name>
+            <sch:name>BudgetItem_FilterBarDV</sch:name>
             <sch:seqNumber>200</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType>DataView</sch:widgetType>
+            <sch:refTargetType>BudgetItem</sch:refTargetType>
+            <sch:label>BudgetItem_FilterBarDV</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType></sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props>{"objectType": "BudgetItem"}</sch:props>
+            <sch:dataSourceType>Context</sch:dataSourceType>
+            <sch:anchorObjectTypeName>BudgetItem</sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName>BudgetItem_FilterBar</sch:parentNodeName>
+            <sch:childNodes/>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>BudgetItem_Toolbar</sch:name>
+            <sch:seqNumber>300</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -161,7 +277,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>BudgetItem_Table</sch:name>
-            <sch:seqNumber>300</sch:seqNumber>
+            <sch:seqNumber>400</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -219,7 +335,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Name</sch:name>
-            <sch:seqNumber>400</sch:seqNumber>
+            <sch:seqNumber>500</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -277,7 +393,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Code</sch:name>
-            <sch:seqNumber>500</sch:seqNumber>
+            <sch:seqNumber>600</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -335,7 +451,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>TotalAmount</sch:name>
-            <sch:seqNumber>600</sch:seqNumber>
+            <sch:seqNumber>700</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -393,7 +509,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>UsedAmount</sch:name>
-            <sch:seqNumber>700</sch:seqNumber>
+            <sch:seqNumber>800</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -451,7 +567,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>RemainAmount</sch:name>
-            <sch:seqNumber>800</sch:seqNumber>
+            <sch:seqNumber>900</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -509,7 +625,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Actions</sch:name>
-            <sch:seqNumber>900</sch:seqNumber>
+            <sch:seqNumber>1000</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -567,7 +683,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Icon</sch:name>
-            <sch:seqNumber>1000</sch:seqNumber>
+            <sch:seqNumber>1100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
@@ -625,7 +741,7 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Link</sch:name>
-            <sch:seqNumber>1100</sch:seqNumber>
+            <sch:seqNumber>1200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName>DefArea</sch:pageAreaName>
