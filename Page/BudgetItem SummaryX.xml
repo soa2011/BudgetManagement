@@ -51,7 +51,7 @@
             <sch:pageAreaName>DefArea</sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
             <sch:widgetType>FilterBar</sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
+            <sch:refTargetType>BudgetItem</sch:refTargetType>
             <sch:label>BudgetItem_FilterBar</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -95,8 +95,8 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:props>{"objectType": "BudgetItem"}</sch:props>
-            <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:dataSourceType>Context</sch:dataSourceType>
+            <sch:anchorObjectTypeName>BudgetItem</sch:anchorObjectTypeName>
             <sch:bindingXpath>BudgetItem_Table</sch:bindingXpath>
             <sch:parentNodeName></sch:parentNodeName>
             <sch:childNodes/>
