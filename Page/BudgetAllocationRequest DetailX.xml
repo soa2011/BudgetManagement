@@ -326,7 +326,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
+            <sch:props>{"objectType": "BudgetAllocationRequest"}</sch:props>
             <sch:dataSourceType></sch:dataSourceType>
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
             <sch:bindingXpath></sch:bindingXpath>
